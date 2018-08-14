@@ -6,17 +6,17 @@ class App < Sinatra::Base
     #it means this is your homepage 
   end 
   
-  get'/name' do 
-    'Hi! My name is Kazi Nur'
-  end 
+                    get'/name' do 
+                      'Hi! My name is Kazi Nur'
+                    end 
   
-  get '/hometown' do 
-    "My hometown is Queens, NY"
-  end 
+                              get '/hometown' do 
+                                "My hometown is Queens, NY"
+                              end 
   
-  get '/favorite-song' do 
-    "My favorite song is Back To You"
-  end 
+                                      get '/favorite-song' do 
+                                        "My favorite song is Back To You"
+                                      end 
 end
 
 
