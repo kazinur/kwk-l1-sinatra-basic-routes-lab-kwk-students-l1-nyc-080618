@@ -5,4 +5,8 @@ class App < Sinatra::Base
     'Welcome to my page!'
     #it means this is your homepage 
   end 
+  
+  get'/name' do 
+    'Hi! My name is Kazi Nur'
+  end 
 end
