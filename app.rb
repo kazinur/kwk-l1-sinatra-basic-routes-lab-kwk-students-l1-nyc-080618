@@ -9,4 +9,9 @@ class App < Sinatra::Base
   get'/name' do 
     'Hi! My name is Kazi Nur'
   end 
+  
+  get '/hometown' do 
+    "My hometown is "
 end
+
+
